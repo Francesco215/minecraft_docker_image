@@ -9,4 +9,4 @@ RUN apt-get install git python3 -y
 VOLUME ["/data"]
 WORKDIR /data
 
-COPY clone.py .
+COPY scripts/* .
